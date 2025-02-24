@@ -4,7 +4,7 @@ import './Start.css'
 const Start = () => {
   return (
     <main>
-      <img src="./assets/Nathalie med Oreo i handn 25procent.jpg" alt="" />
+      <img src="./assets/Nathalie.jpg" alt="" />
       <button>Bilder</button>
       <button>Hamstervård</button>
     </main>
