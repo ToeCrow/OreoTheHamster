@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0073E6;
+  color: #FFFFFF;
+  padding: 1rem;
+  position: relative;
+  top: 0;
+  z-index: 1000;
+}

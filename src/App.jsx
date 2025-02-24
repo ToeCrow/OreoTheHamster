@@ -1,12 +1,15 @@
-
-import './App.css'
+import Header from './Components/Header'
+import Start from './Pages/Start'
+import Footer from './Components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-   
+      <Header />
+      <Start />
+      <Footer />
     </>
   )
 }
