@@ -4,9 +4,8 @@ import './Start.css'
 const Start = () => {
   return (
     <main>
-      <img src="./assets/Nathalie.jpg" alt="" />
-      <button>Bilder</button>
-      <button>Hamstervård</button>
+      <button className='startbuttons pictures'>Bilder</button>
+      <button className='startbuttons care'>Hamstervård</button>
     </main>
   )
 }

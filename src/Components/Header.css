@@ -9,4 +9,11 @@ header {
   position: relative;
   top: 0;
   z-index: 1000;
+  width: 100vw;
+}
+
+nav a {
+  margin: 1rem;
+  color: #FFFFFF;
+  text-decoration: none;
 }
