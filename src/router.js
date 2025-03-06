@@ -1,19 +1,19 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "./App";
-import Start from "./Pages/Start";
-import Gallery from "./Pages/Gallery";
-import NotFound from "./Pages/NotFound";
+import App from "./App.jsx";
+import Start from "./Pages/Start.jsx";
+import Gallery from "./Pages/Gallery.jsx";
+import NotFound from "./Pages/NotFound.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
-      { index: true, element: <Start /> }, // Startsidan
-      { path: "gallery", element: <Gallery /> },
+      { index: true, element: <Start /> }, // JSX-syntax
+      { path: "gallery", element: <Gallery /> }, // JSX-syntax
     ],
   },
-  { path: "*", element: <NotFound /> }, // 404-sida
+  { path: "*", element: <NotFound /> }, // JSX-syntax
 ]);
 
 export default router;
